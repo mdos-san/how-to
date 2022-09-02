@@ -38,3 +38,11 @@ When developping your CSS classes, you may want to allow reusability. You should
     * Ex: Your `.card` class may use a CSS Variable for `background-color`, `height`, `width`, etc...
   * Specificity of you component should be reduced as much as possible to allow override when used.
     * Ex: We have a custom CSS lib and a **TodoAPP**. In **TodoAPP** we add the class `.todo-app` on the `<body>` tag, and override the `.card` class with `.todo-app .card`
+
+### Folder structure in react app
+
+A `css` folder should be created at the root folder.
+
+CSS files should match React component files path:
+
+React component `src/user/profile.tsx` should have a CSS file declared at `css/user/profile.tsx`

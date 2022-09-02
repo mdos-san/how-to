@@ -1,4 +1,6 @@
-# How to create Typescript package
+# How to Typescript
+
+## How to create Typescript package
 
 ### Create 2 tsconfig for each js module
 
